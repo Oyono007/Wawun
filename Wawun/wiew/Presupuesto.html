@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    </head>
+    <body>
+        <header>    
+            <img src="../asset/imagenes/Logo.png" alt="logo" usemap="#logo" title="Inicio/Wawún Outlet"  width="421" height="326">
+            <map name="logo"><area shape="rect" coords="45, 15, 150, 150" alt="index" href="../index.html" title="Inicio/Wawún Outlet">
+            </map>
+            <form>
+                <input type="search" placeholder="Buscar...">
+                <input type="submit" name="Buscar">
+            </form>
+            <input type="checkbox" id="check-menu" class="check-menu">
+            <nav class="nav-links">
+                <a href="../index.html" title="Inicio">Inicio</a>
+                <a href="./Productos.html" title="Productos">Productos</a>
+                <a href="./Presupuesto.html" title="Presupuesto">Presupuesto</a>
+                <a href="./Contacto.html" title="Contacto">Contacto</a>
+            </nav>
+            <label for="check-menu" class="label-check">
+                <img src="../asset/imagenes/menu-alt-1-svgrepo-com.svg" alt="menu" width="50" height="50">
+            </label>
+        </header>
+        <main>
+            <section class="contenido">
+                <div class="trato">
+                    <p>Solicite más información rellenando el siguiente formulario.</p>                
+                </div>                
+                <form class="contactoForm" id="mayForm" name="mayForm" action="#" method="get" target="_blank">
+                    <label for="trato">*Trato.</label>
+                    <select id="trato" name="trato">
+                    <option value="hombre">Sr.</option>
+                    <option value="mujer">Sra</option>                    
+                    </select>
+                    <label for="first-name"> *Nombre.</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="Escriba su nombre" pattern="[A-Z a-z]{3,15}" title="Escriba su nombre" required>
+                    <label for="surname">*Apellidos.</label>
+                    <input type="text" id="surname" name="surname" placeholder="Escriba sus apellidos"pattern="[A-Z a-z]{3,15}" title="Escriba sus apellidos" required>
+                    <label for="eléfono">*Teléfono.</label>
+                    <input type="text" id="Teléfono" name="Teléfono" placeholder="Introduzca su número de teléfono" title="Introduzca su número de teléfono">
+                    <label for="email" >*Correo electronico.</label>
+                    <input type="email" id="email" name="email" placeholder="Escriba su Correo electrónico" pattern="[a-zA-Z0-9-_.]+@[a-z0-9.-_]+\.{2,4}" title="Escriba su Correo electrónico">
+                    <label for="mensaje"> Mensaje.</label>
+                    <textarea name="mensaje" id="mensaje" rows="4" placeholder="Escribe tu mensaje" title="Deje su mensaje"></textarea>
+                    <div class="boton">
+                        <button type="reset">Borar</button>
+                        <button type="submit">Enviar</button>
+                    </div>                    
+                </form>                 
+                    <div class="check">
+                        <input type="checkbox">
+                        <p>He leído y acepto los términos y condiciones, la política de privacidad y proteccion de datos.</p>  
+                    </div>               
+            </section>
+        </main>
+        <footer>
+            <img src="../asset/imagenes/Logo.png" alt="Logo" class="logo" width="421" height="326" title="Inicio/Wawún Outlet">
+            <p> &COPY; Wawún 2024. Todos los derechos reservados. </p>
+            <div>
+                <H3>Dirección</H3>
+                <p>Calle. Río genil, 22</p>
+                <p>28934. Mostoles</p>
+                <p>Tfno. +34 631 93 45 80</p>
+                <a href="javioyono@gmail.com" title="email">javioyono@gmail.com</a>
+            </div>
+            <div class="redes_sociales">
+                <p>SÍGANOS:</p>
+                <a href="https://www.facebook.com/?locale=es_ES" title="faceboock" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.messenger.com/?locale=es_ES" title="messenger" target="_blank"><i class="bi bi-messenger"></i></a>
+                <a href="https://www.instagram.com/" title="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://x.com/?lang=es" title="twitter-x" target="_blank"><i class="bi bi-twitter-x"></i></a>
+            </div>
+        </footer>
+    </body>
+</html>
