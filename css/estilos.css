@@ -113,6 +113,7 @@ h2{
 /*-*-*-*-*-*-*-*-*- Sección Novedades-*-*-*-*-*-*-*-*-*--*--*/
 
 .novedades{
+    height:100vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
@@ -195,6 +196,7 @@ img{
     width: 100%;
 }
 .galeria{
+    height:100vh;
     display: flex;
     padding: 10px;
     flex-wrap: wrap;
@@ -210,6 +212,7 @@ img{
 *-*-*-*-*-**-**---*-*-*-*-*-*-*-*-*-*-*-*-FORMULARIO DE LA PÁGINA DE PRESUPUESTO-*-*-*-*-*-*-*-*
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
 .contenido{
+    height:100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -274,6 +277,7 @@ p{
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
 
 .contacto{
+     height:100vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
