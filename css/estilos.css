@@ -114,7 +114,6 @@ h2{
 /*-*-*-*-*-*-*-*-*- Sección Novedades-*-*-*-*-*-*-*-*-*--*--*/
 
 .novedades{
-    height: 100vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
@@ -156,7 +155,6 @@ section h2{
 }
 /*-*-*-*---*-*- Sección de Rebajas-*-*-*-*-*-*---*-*/
 .Rebajas{
-    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -370,14 +368,18 @@ footer a{
     .Rebajas{
         flex-wrap: wrap;
     }
-    /*----Página de contacto---*/
+    /*-*-*-*----**-**-*-*-*-**--
+    *----Página de contacto---*
+    *-*--*-*-*-*-*-*-**-*-*-*-*/
 @media(max-width:1024px){
     .contacto{
         flex-wrap: wrap;
     }
 }
 
-/*----Página de productos---*/
+/*-*-*-*-*--*-*-*-*-*-*-*-*-*--**
+    *----Página de productos---*
+*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*/
 @media(max-width:1024px){
     .caja{
         flex: 45%;
@@ -388,9 +390,9 @@ footer a{
         flex-wrap: wrap;
     }
 }
-/*-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+/*-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 *-*-*-*-*-**-**---*-*-*-*-*-*-*-*-*-*-*-*-MEDIA QUERIES PANTALLA DE (768px)-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
 @media(max-width:768px){
     .novedades{
         grid-template-columns:1fr;
