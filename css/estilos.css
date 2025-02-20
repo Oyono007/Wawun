@@ -61,6 +61,7 @@ input[type=submit]:hover{
 }
 .nav-links a:hover{
     color:var(--black);
+    text-decoration: underline;
     background-color:var(--white);
 }
 /* ----Menú Hamburguesa---*/
